@@ -60,7 +60,7 @@ stages:
         command: 'publish'
         projects: '**/*.csproj'
         publishWebProjects: false
-        arguments: '--no-build --configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)/$(buildConfiguration)'
+        arguments: '-o testpath'
         zipAfterPublish: true
 
     - publish: '$(Build.ArtifactStagingDirectory)'
