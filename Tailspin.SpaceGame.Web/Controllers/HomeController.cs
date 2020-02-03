@@ -24,7 +24,7 @@ namespace TailSpin.SpaceGame.Web.Controllers
             string region = ""
             )
         {
-            // Create the view model with initial values we already know.
+            // Create the view model with initial values we already know.T
             var vm = new LeaderboardViewModel
             {
                 Page = page,
